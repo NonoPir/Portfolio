@@ -245,3 +245,20 @@ body{
     justify-content: space-evenly;
     width: 400px;
 }
+.wraper{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+.html{
+    display: flex;
+    width: 300px;
+    justify-content: flex-start;
+    align-items: center;
+}
+.css{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 500px;
+}
