@@ -1,21 +1,25 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
-html{
+
+html {
     scroll-behavior: smooth;
 }
-body{
+
+body {
     background: #404258;
     font-family: sans-serif;
-    color:#babddb;
+    color: #babddb;
 }
-.primary{
+
+.primary {
     width: 1800px;
     margin-left: 50px;
 }
-.header{
-    color:#babddb;
+
+.header {
+    color: #babddb;
     display: flex;
     justify-content: center;
     padding-top: 20px;
@@ -24,83 +28,102 @@ body{
     background-color: #404258;
     height: 30px;
 }
-.list{
+
+.list {
     display: flex;
 }
-#home{
+
+#home {
     margin-left: 600px;
 }
-#about{
+
+#about {
     margin-left: 50px;
 }
-#skills{
+
+#skills {
     margin-left: 50px;
 }
-#contact{
+
+#contact {
     margin-left: 50px;
 }
-.list a{
+
+.list a {
     text-decoration: none;
-    color:#babddb;
+    color: #babddb;
 }
-.home_page{
+
+.home_page {
     display: flex;
     justify-content: space-evenly;
     height: 500px;
     align-items: center;
     width: 1000px;
     margin-left: 400px;
-    color:#babddb;
+    color: #babddb;
     padding-top: 200px;
 }
-.home_page img{
+
+.home_page img {
     height: 300px;
     width: 300px;
     border-radius: 50%;
 }
-.home_page h1{
+
+.home_page h1 {
     font-size: 40px;
 }
-.name{
+
+.name {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     margin-bottom: 50px;
     line-height: 25px;
 }
-.name h3{
-    margin-top: 20px; 
+
+.name h3 {
+    margin-top: 20px;
     font-weight: 600;
     color: #9596a8;
 }
-.name p{
+
+.name p {
     font-size: 18px;
     font-weight: 500;
 }
-#home1:hover{
+
+#home1:focus {
     color: white;
 }
-#about1:hover{
+
+#about1:focus {
     color: white;
 }
-#skills1:hover{
+
+#skills1:focus {
     color: white;
 }
-#contact1:hover{
+
+#contact1:focus {
     color: white;
 }
-.header1{
-    color:#babddb;
+
+.header1 {
+    color: #babddb;
     display: flex;
     justify-content: center;
     margin-top: 20px;
     flex-direction: column;
     align-items: center;
 }
-.about_page{
+
+.about_page {
     margin-top: 200px;
 }
-.circle{
+
+.circle {
     width: 10px;
     height: 10px;
     background: #404258;
@@ -111,22 +134,26 @@ body{
     border-width: 2px;
     border-color: #babddb;
 }
-.line{
+
+.line {
     width: 2px;
     height: 150px;
     background: #babddb;
     margin-left: 496px;
 }
-.circle h4{
+
+.circle h4 {
     width: 400px;
     margin-left: 30px;
 }
-.circle li{
+
+.circle li {
     width: 500px;
     margin-left: 50px;
     margin-top: 10px;
 }
-.circle1{
+
+.circle1 {
     width: 10px;
     height: 10px;
     background: #404258;
@@ -136,16 +163,19 @@ body{
     border-width: 2px;
     border-color: #babddb;
 }
-.circle1 h4{
+
+.circle1 h4 {
     width: 400px;
     margin-left: 30px;
 }
-.circle1 li{
+
+.circle1 li {
     width: 500px;
     margin-left: 50px;
     margin-top: 10px;
 }
-.circle2{
+
+.circle2 {
     width: 10px;
     height: 10px;
     background: #404258;
@@ -155,17 +185,20 @@ body{
     border-width: 2px;
     border-color: #babddb;
 }
-.circle2 h4{
+
+.circle2 h4 {
     width: 500px;
     margin-left: 30px;
 }
-.circle2 li{
+
+.circle2 li {
     width: 500px;
     margin-left: 50px;
     margin-top: 10px;
 }
-.header2{
-    color:#babddb;
+
+.header2 {
+    color: #babddb;
     display: flex;
     justify-content: center;
     margin-top: 20px;
@@ -173,12 +206,13 @@ body{
     align-items: center;
     margin-top: 100px;
 }
-.skills_page{
+
+.skills_page {
     margin-top: 400px;
 }
 
-.header3{
-    color:#babddb;
+.header3 {
+    color: #babddb;
     display: flex;
     justify-content: center;
     margin-top: 20px;
@@ -186,79 +220,100 @@ body{
     align-items: center;
     margin-top: 200px;
 }
-.call{
-    margin-left:490px;
+
+.call {
+    margin-left: 490px;
     display: flex;
     margin-top: 150px;
 }
-.call h2{
+
+.call h2 {
     margin-left: 10px;
 }
-.num p{
+
+.num p {
     margin-left: 10px;
     margin-top: 10px;
 }
-.call img{
+
+.call img {
     margin-top: 10px;
 }
-.mail{
-    margin-left:490px;
+
+.mail {
+    margin-left: 490px;
     display: flex;
     margin-top: 50px;
 }
-.mail h2{
+
+.mail h2 {
     margin-left: 10px;
 }
-.text p{
+
+.text p {
     margin-left: 10px;
     margin-top: 10px;
 }
-.mail img{
+
+.mail img {
     margin-top: 10px;
 }
-.facebook{
-    margin-left:490px;
+
+.facebook {
+    margin-left: 490px;
     display: flex;
     margin-top: 50px;
 }
-.facebook h2{
+
+.facebook h2 {
     margin-left: 10px;
 }
-.fb p{
+
+.fb p {
     margin-left: 10px;
     margin-top: 10px;
 }
-.facebook img{
+
+.facebook img {
     margin-top: 10px;
 }
-.footer{
+
+.footer {
     height: 200px;
-    width: 1864px;
+    width: 100%;
     background: #21232e;
     margin-top: 200px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.icons{
+
+.icons {
     display: flex;
     justify-content: space-evenly;
     width: 400px;
 }
-.wraper{
+
+.wraper {
     display: flex;
     justify-content: center;
     margin-top: 200px;
 }
-.html{
+
+.html {
     display: flex;
     width: 300px;
     justify-content: flex-start;
     align-items: center;
 }
-.css{
+
+.css {
     display: flex;
     align-items: center;
     justify-content: flex-end;
     width: 500px;
+}
+
+.icons i:hover {
+    color: rgb(89, 99, 114);
 }
