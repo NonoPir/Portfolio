@@ -1,319 +1,369 @@
 * {
-    margin: 0px;
-    padding: 0px;
+  margin: 0px;
+  padding: 0px;
 }
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body {
-    background: #404258;
-    font-family: sans-serif;
-    color: #babddb;
+  background: #404258;
+  font-family: sans-serif;
+  color: #babddb;
+  overflow-x: hidden;
 }
 
 .primary {
-    width: 1800px;
-    margin-left: 50px;
+  width: 100%;
+  margin-left: 50px;
 }
 
 .header {
-    color: #babddb;
-    display: flex;
-    justify-content: center;
-    padding-top: 20px;
-    position: fixed;
-    margin-left: 300px;
-    background-color: #404258;
-    height: 30px;
+  color: #babddb;
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  position: fixed;
+  background-color: #404258;
+  height: 30px;
+  width: 1920px;
+}
+
+.header h2 {
+  margin-right: 100px;
+}
+
+.sun {
+  height: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-left: 100px;
+  width: 100px;
 }
 
 .list {
-    display: flex;
+  display: flex;
 }
 
 #home {
-    margin-left: 600px;
+  margin-left: 600px;
 }
 
 #about {
-    margin-left: 50px;
+  margin-left: 50px;
 }
 
 #skills {
-    margin-left: 50px;
+  margin-left: 50px;
 }
 
 #contact {
-    margin-left: 50px;
+  margin-left: 50px;
 }
 
 .list a {
-    text-decoration: none;
-    color: #babddb;
+  text-decoration: none;
+  color: #babddb;
+}
+.active {
+  color: white;
+}
+
+.pic {
+  margin-bottom: 50px;
 }
 
 .home_page {
-    display: flex;
-    justify-content: space-evenly;
-    height: 500px;
-    align-items: center;
-    width: 1000px;
-    margin-left: 400px;
-    color: #babddb;
-    padding-top: 200px;
+  display: flex;
+  justify-content: space-evenly;
+  height: 500px;
+  align-items: center;
+  width: 1920px;
+  color: #babddb;
+  padding-top: 200px;
 }
 
 .home_page img {
-    height: 300px;
-    width: 300px;
-    border-radius: 50%;
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
 }
 
 .home_page h1 {
-    font-size: 40px;
+  font-size: 40px;
 }
 
 .name {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    margin-bottom: 50px;
-    line-height: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-bottom: 50px;
+  line-height: 25px;
+}
+.name1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-bottom: 50px;
+  line-height: 25px;
 }
 
 .name h3 {
-    margin-top: 20px;
-    font-weight: 600;
-    color: #9596a8;
+  margin-top: 20px;
+  font-weight: 600;
+  color: #9596a8;
 }
 
 .name p {
-    font-size: 18px;
-    font-weight: 500;
+  font-size: 18px;
+  font-weight: 500;
+}
+.name1 p {
+  font-size: 18px;
+  font-weight: 500;
+}
+.name1 h3 {
+  margin-top: 20px;
+  font-weight: 600;
+  color: #9596a8;
 }
 
 #home1:hover {
-    color: white;
+  color: white;
 }
 
 #about1:hover {
-    color: white;
+  color: white;
 }
 
 #skills1:hover {
-    color: white;
+  color: white;
 }
 
 #contact1:hover {
-    color: white;
+  color: white;
 }
 
 .header1 {
-    color: #babddb;
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-    flex-direction: column;
-    align-items: center;
+  color: #babddb;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  flex-direction: column;
+  align-items: center;
 }
 
 .about_page {
-    margin-top: 200px;
+  margin-top: 200px;
 }
 
 .circle {
-    width: 10px;
-    height: 10px;
-    background: #404258;
-    border-radius: 50%;
-    margin-left: 490px;
-    margin-top: 100px;
-    border: solid;
-    border-width: 2px;
-    border-color: #babddb;
+  width: 10px;
+  height: 10px;
+  background: #404258;
+  border-radius: 50%;
+  margin-left: 490px;
+  margin-top: 100px;
+  border: solid;
+  border-width: 2px;
+  border-color: #babddb;
 }
 
 .line {
-    width: 2px;
-    height: 150px;
-    background: #babddb;
-    margin-left: 496px;
+  width: 2px;
+  height: 150px;
+  background: #babddb;
+  margin-left: 496px;
 }
 
 .circle h4 {
-    width: 400px;
-    margin-left: 30px;
+  width: 400px;
+  margin-left: 30px;
 }
 
 .circle li {
-    width: 500px;
-    margin-left: 50px;
-    margin-top: 10px;
+  width: 500px;
+  margin-left: 50px;
+  margin-top: 10px;
 }
 
 .circle1 {
-    width: 10px;
-    height: 10px;
-    background: #404258;
-    border-radius: 50%;
-    margin-left: 490px;
-    border: solid;
-    border-width: 2px;
-    border-color: #babddb;
+  width: 10px;
+  height: 10px;
+  background: #404258;
+  border-radius: 50%;
+  margin-left: 490px;
+  border: solid;
+  border-width: 2px;
+  border-color: #babddb;
 }
 
 .circle1 h4 {
-    width: 400px;
-    margin-left: 30px;
+  width: 400px;
+  margin-left: 30px;
 }
 
 .circle1 li {
-    width: 500px;
-    margin-left: 50px;
-    margin-top: 10px;
+  width: 500px;
+  margin-left: 50px;
+  margin-top: 10px;
 }
 
 .circle2 {
-    width: 10px;
-    height: 10px;
-    background: #404258;
-    border-radius: 50%;
-    margin-left: 490px;
-    border: solid;
-    border-width: 2px;
-    border-color: #babddb;
+  width: 10px;
+  height: 10px;
+  background: #404258;
+  border-radius: 50%;
+  margin-left: 490px;
+  border: solid;
+  border-width: 2px;
+  border-color: #babddb;
 }
 
 .circle2 h4 {
-    width: 500px;
-    margin-left: 30px;
+  width: 500px;
+  margin-left: 30px;
 }
 
 .circle2 li {
-    width: 500px;
-    margin-left: 50px;
-    margin-top: 10px;
+  width: 500px;
+  margin-left: 50px;
+  margin-top: 10px;
 }
 
 .header2 {
-    color: #babddb;
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 100px;
+  color: #babddb;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
 }
 
 .skills_page {
-    margin-top: 400px;
+  margin-top: 400px;
 }
 
 .header3 {
-    color: #babddb;
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 200px;
+  color: #babddb;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 200px;
 }
 
 .call {
-    margin-left: 490px;
-    display: flex;
-    margin-top: 150px;
+  margin-left: 490px;
+  display: flex;
+  margin-top: 150px;
 }
 
 .call h2 {
-    margin-left: 10px;
+  margin-left: 10px;
 }
 
 .num p {
-    margin-left: 10px;
-    margin-top: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
 }
 
 .call img {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
 .mail {
-    margin-left: 490px;
-    display: flex;
-    margin-top: 50px;
+  margin-left: 490px;
+  display: flex;
+  margin-top: 50px;
 }
 
 .mail h2 {
-    margin-left: 10px;
+  margin-left: 10px;
 }
 
 .text p {
-    margin-left: 10px;
-    margin-top: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
 }
 
 .mail img {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
 .facebook {
-    margin-left: 490px;
-    display: flex;
-    margin-top: 50px;
+  margin-left: 490px;
+  display: flex;
+  margin-top: 50px;
 }
 
 .facebook h2 {
-    margin-left: 10px;
+  margin-left: 10px;
 }
 
 .fb p {
-    margin-left: 10px;
-    margin-top: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
 }
 
 .facebook img {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
 .footer {
-    height: 200px;
-    width: 1864px;
-    background: #21232e;
-    margin-top: 200px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  height: 200px;
+  width: 100%;
+  background: #21232e;
+  margin-top: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .icons {
-    display: flex;
-    justify-content: space-evenly;
-    width: 400px;
+  display: flex;
+  justify-content: space-evenly;
+  width: 400px;
 }
 
 .wraper {
-    display: flex;
-    justify-content: center;
-    margin-top: 200px;
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
 }
 
 .html {
-    display: flex;
-    width: 300px;
-    justify-content: flex-start;
-    align-items: center;
+  display: flex;
+  width: 300px;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 .css {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 500px;
 }
 
 .icons i:hover {
-    color: rgb(89, 99, 114);
+  color: rgb(89, 99, 114);
+}
+.night_mode {
+  background-color: white;
+  color: black;
+}
+.active :hover {
+  color: black;
+}
+.hidden {
+  display: none;
+}
+.hover_color :hover {
+  color: black;
 }
