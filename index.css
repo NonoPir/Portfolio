@@ -246,7 +246,7 @@ body {
 }
 
 .skills_page {
-  margin-top: 500px;
+  margin-top: 200px;
 }
 
 .header3 {
@@ -351,6 +351,12 @@ body {
   justify-content: flex-end;
   width: 500px;
 }
+.js {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 500px;
+}
 
 .icons i:hover {
   color: rgb(89, 99, 114);
@@ -372,7 +378,7 @@ body {
   position: relative;
   overflow: hidden;
   padding: 20px;
-  margin-top: 400px;
+  margin-top: 200px;
 }
 
 .product-category {
@@ -484,27 +490,42 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #464055 100%);
+  background-color: rgba(255, 255, 255, 0);
   cursor: pointer;
   z-index: 8;
+  opacity: 1;
+}
+
+.left {
+  fill: white;
+}
+
+.uil-angle-left-b {
+  font-size: 40px;
+  color: #babddb;
+}
+
+.uil-angle-right-b {
+  font-size: 40px;
+  color: #babddb;
 }
 
 .pre-btn {
   left: 0;
-  transform: rotate(180deg);
+  /* transform: rotate(180deg); */
 }
 
 .nxt-btn {
   right: 0;
 }
 
-.pre-btn img,
-.nxt-btn img {
+.pre-btn i,
+.nxt-btn i {
   opacity: 0.2;
 }
 
-.pre-btn:hover img,
-.nxt-btn:hover img {
+.pre-btn:hover i,
+.nxt-btn:hover i {
   opacity: 1;
 }
 
@@ -542,4 +563,30 @@ body {
 }
 .product img {
   border-radius: 10px;
+}
+#my_projects {
+  margin-bottom: 150px;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #121218;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #0c0c0e;
+}
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background: #21232e;
 }
