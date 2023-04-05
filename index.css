@@ -482,6 +482,7 @@ body {
 
 .pre-btn,
 .nxt-btn {
+  margin-top: 50px;
   border: none;
   width: 10vw;
   height: 100%;

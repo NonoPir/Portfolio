@@ -21,7 +21,8 @@ document.querySelector(".mode").addEventListener("click", function () {
   document.querySelector("#about1").classList.add("night_mode");
   document.querySelector(".uil").style.color = "#000000";
   document.querySelector(".uil2").style.color = "#000000";
-  document.getElementsByTagName(".a").classList.add = "hover_color";
+  document.querySelector(".mode").classList.add("hidden");
+  document.querySelector(".mode2").classList.remove("hidden");
 });
 
 document.querySelector(".mode2").addEventListener("click", function () {
@@ -36,6 +37,8 @@ document.querySelector(".mode2").addEventListener("click", function () {
   document.querySelector("#about1").classList.remove("night_mode");
   document.querySelector(".uil2").style.color = "#babddb";
   document.querySelector(".uil").style.color = "#babddb";
+  document.querySelector(".mode").classList.remove("hidden");
+  document.querySelector(".mode2").classList.add("hidden");
 });
 
 const productContainers = [...document.querySelectorAll(".product-container")];
